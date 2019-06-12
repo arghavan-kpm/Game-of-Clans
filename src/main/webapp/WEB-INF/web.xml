@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>loginCtrl</servlet-name>
+        <servlet-class>controller.loginCtrl</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>activityCtrl</servlet-name>
+        <servlet-class>controller.activityCtrl</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>updateChantCtrl</servlet-name>
+        <servlet-class>controller.updateChantCtrl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>chooseCtrl</servlet-name>
+        <servlet-class>controller.chooseCtrl</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>addClanCtrl</servlet-name>
+        <servlet-class>controller.addClanCtrl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>signupCtrl</servlet-name>
+        <servlet-class>controller.signupCtrl</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>updateJobCtrl</servlet-name>
+        <servlet-class>controller.updateJobCtrl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>addRemoveCtrl</servlet-name>
+        <servlet-class>controller.addRemoveCtrl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>attackCtrl</servlet-name>
+        <servlet-class>controller.attackCtrl</servlet-class>
+    </servlet>
+
+
+    <servlet>
+        <servlet-name>addBuildCtrl</servlet-name>
+        <servlet-class>controller.addBuildCtrl</servlet-class>
+    </servlet>
+
+
+
+    <servlet-mapping>
+        <servlet-name>signupCtrl</servlet-name>
+        <url-pattern>/csignup</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>addBuildCtrl</servlet-name>
+        <url-pattern>/caddBuild</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>activityCtrl</servlet-name>
+        <url-pattern>/cactivity</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>updateJobCtrl</servlet-name>
+        <url-pattern>/cupdateJob</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>loginCtrl</servlet-name>
+        <url-pattern>/clogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>chooseCtrl</servlet-name>
+        <url-pattern>/cchoose</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>addClanCtrl</servlet-name>
+        <url-pattern>/caddClan</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>updateChantCtrl</servlet-name>
+        <url-pattern>/cupdateChant</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>addRemoveCtrl</servlet-name>
+        <url-pattern>/caddRemove</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>attackCtrl</servlet-name>
+        <url-pattern>/cattack</url-pattern>
+    </servlet-mapping>
+
+</web-app>
